@@ -1,0 +1,6 @@
+data/*
+!data/.gitkeep
+!data/data_source.md
+
+artifacts/*
+!artifacts/.gitkeep
