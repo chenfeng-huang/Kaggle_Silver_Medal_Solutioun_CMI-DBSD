@@ -4,7 +4,7 @@
 
 This solution was developed for the Kaggle competition [Child Mind Institute — Detect Behavior with Sensor Data](https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data), where participants classify wrist‑worn multimodal sensor sequences into fine‑grained gesture classes relevant to BFRB‑like behaviors. The approach engineers IMU orientation‑aware features, aggregates ToF/thermopile signals, and trains a two‑branch temporal CNN with a modality gate and metric learning. A subject‑level global assignment post‑processing improves class diversity across sequences.
 
-Our work earned a Silver Medal. The repository contains end‑to‑end training and an inference server compatible with Kaggle’s evaluation API. 🥈
+Our work earned a Silver Medal. The repository contains end‑to‑end training and an inference server compatible with Kaggle’s evaluation API. 🥈 For more insights about the design, you can check out my [blog post](https://chenfenghuang.info/2025/09/23/Kaggle-CMI-DBSD/).
 
 ![CMI‑DBSD — Silver Medal](./certificate.png)
 
